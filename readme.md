@@ -12,3 +12,7 @@ It depends on the [zxcvbn library](https://blogs.dropbox.com/tech/2012/04/zxcvbn
 ## Usage
 
 TBD
+
+## License
+
+This package is licensed under the [MIT license](http://opensource.org/licenses/MIT).
