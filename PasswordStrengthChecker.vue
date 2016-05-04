@@ -11,7 +11,7 @@
             @keyup="check"
         >
 
-        <div :class="status" :style="{width: strength + '%'}"></div>
+        <div :class="status" :style="{width: strength + '%'}" transition="strength-bar"></div>
 
     </div>
 
@@ -56,8 +56,8 @@
 </script>
 
 <style>
-    .strength-bar {
-        height: 4px; margin-top: -2px; }
+    .strength-bar-transition {
+        height: 4px; margin-top: -2px; transition: all .3s ease; }
     .strength-bar.poor {
         background-color: #d9534f; }
     .strength-bar.weak {
